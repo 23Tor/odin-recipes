@@ -1,18 +1,18 @@
 @font-face {
-    font-family: "Sims";
-    src: url("./font/SimsLLHP.ttf");
+  font-family: "Sims";
+  src: url("./font/SimsLLHP.ttf");
 }
 
 html {
-    background-image: url("https://farm5.staticflickr.com/4902/44891418625_2056c2bf9f_o.png");
-    background-color: #e6e6e1;
+  background-image: url("./img/background.png");
+  background-color: #e6e6e1;
 }
 
 /* Title */
 h1 {
-    font-family: Sims, Arial, Helvitica;
-    font-size: 80px;
-    color: aliceblue;
+  font-family: Sims, Arial, Helvitica;
+  font-size: 80px;
+  color: aliceblue;
 }
 
 /* Dropdown Button */
@@ -36,7 +36,7 @@ h1 {
   position: absolute;
   background-color: #437ABC;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -49,14 +49,20 @@ h1 {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #2c67ae;}
+.dropdown-content a:hover {
+  background-color: #2c67ae;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
 .top {
-    text-align: center;
+  text-align: center;
 }
